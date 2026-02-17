@@ -60,7 +60,7 @@ body {
 /* Barra de navegación */
 nav {
     background-color: #1f1f1f;
-    padding: 15px;
+    padding: 25px;
     text-align: center;
 }
 
@@ -80,7 +80,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #aa1a1a;
+    color: #d81313;
 }
 
 /* Secciones */
@@ -91,7 +91,7 @@ nav ul li a:hover {
 
 #inicio {
     background-color: #1a1a1a;
-    padding: 100px 20px;
+    padding: 20px 20px;
 }
 
 #inicio h1 {
@@ -201,4 +201,10 @@ footer {
     #inicio p {
         font-size: 1rem;
     }
+}
+
+.qr {
+  display: block;
+  width: 10vw !important;
+  filter: invert(100%);
 }
